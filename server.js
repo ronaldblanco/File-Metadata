@@ -13,7 +13,7 @@ app.post('/get-file-size', upload.single('file'), function (req, res, next) {
   // req.file is the `avatar` file 
   // req.body will hold the text fields, if there were any
   //console.log(req.file);
-  res.send({'size':req.file.size + ' Bytes'});
+  res.send({'size':req.file.size ,'uni': 'Bytes'});
 })
  
 /*app.post('/photos/upload', upload.array('photos', 12), function (req, res, next) {
