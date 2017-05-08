@@ -1,0 +1,20 @@
+{
+  "name": "file_metadata",
+  "version": "1.0.0",
+  "description": "File Metadata",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "File",
+    "Metadata",
+    "size"
+  ],
+  "author": "Ronald Blanco",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2",
+    "multer": "^1.3.0"
+  }
+}
